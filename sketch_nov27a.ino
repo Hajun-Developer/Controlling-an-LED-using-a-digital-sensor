@@ -16,7 +16,7 @@ void loop () {
 
   }
 
-  else (digitalRead(sensor) == LOW) {
+  else {
 
     digitalWrite(led,LOW);
 
